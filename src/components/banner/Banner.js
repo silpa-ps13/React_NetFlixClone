@@ -1,5 +1,5 @@
 import React from 'react';
-import  './Banner.css';
+import './Banner.css';
 export default function () {
   return (
     <div className="banner">
@@ -13,8 +13,9 @@ export default function () {
           In publishing and graphic design, Lorem ipsum is a placeholder text
           commonly used to demonstrate the visual form of a document or a
           typeface without relying on meaningful content.
-        </h1>
+        </h1> 
       </div>
+      <div className="fade"></div>
     </div>
   );
 }
